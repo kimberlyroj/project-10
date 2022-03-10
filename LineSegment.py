@@ -3,7 +3,6 @@
 # Date: 3/9/2022
 # Description: A class named Point that has two data members, x_coord and y_coord, representing the two coordinates of the point.
 import math
-
 class Point:
     def __init__(self, x_coord, y_coord):
         self.x_coord = x_coord
@@ -61,5 +60,4 @@ if __name__ == '__main__':
 
     print(line_seg_2.length())
     print(line_seg_2.slope())
-
     print(line_seg_1.is_parallel_to(line_seg_2))
