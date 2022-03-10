@@ -58,6 +58,4 @@ if __name__ == '__main__':
 
     line_seg_2 = LineSegment(point_3, point_4)
 
-    print(line_seg_2.length())
-    print(line_seg_2.slope())
     print(line_seg_1.is_parallel_to(line_seg_2))
